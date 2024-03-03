@@ -33,3 +33,9 @@ sudo systemctl status docker
 ````
 sudo docker run hello-world
 ````
+7. 启用 Docker 服务的自动启动
+打开终端，执行以下命令来启用 Docker 服务的自动启动：
+````
+sudo systemctl enable docker
+````
+这个命令会创建一个符号链接，将 Docker 服务的配置文件链接到系统的启动目录中，从而在系统启动时自动启动 Docker 服务。
