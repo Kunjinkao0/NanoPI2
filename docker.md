@@ -1,3 +1,6 @@
+> 部分内容源自AI
+
+0. 更新源（neo-pi需要arm64，同时考虑魔法）：
 ````
 deb http://mirrors.ustc.edu.cn/ubuntu-ports/ xenial main multiverse restricted universe 
 deb http://mirrors.ustc.edu.cn/ubuntu-ports/ xenial-backports main multiverse restricted universe 
@@ -10,7 +13,6 @@ deb-src http://mirrors.ustc.edu.cn/ubuntu-ports/ xenial-proposed main multiverse
 deb-src http://mirrors.ustc.edu.cn/ubuntu-ports/ xenial-security main multiverse restricted universe 
 deb-src http://mirrors.ustc.edu.cn/ubuntu-ports/ xenial-updates main multiverse restricted universe
 ````
-
 1. 更新软件包列表
 首先，打开终端并更新你的软件包列表以确保所有包都是最新的：
 ````
